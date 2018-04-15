@@ -1,4 +1,4 @@
-package com.book.util;
+﻿package com.book.util;
 
 import java.io.IOException;
 
@@ -9,10 +9,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class Filedelete {
 	private String filePath="/file/";
-	private static final String FTP_ADDRESS="bxu2442160753.my3w.com";
+	private static final String FTP_ADDRESS="";
 	private static final int FTP_PORT=21;
-	private static final String FTP_USERNAME="bxu2442160753";
-	private static final String FTP_PASSWORD="gfdx11660";
+	private static final String FTP_USERNAME="";
+	private static final String FTP_PASSWORD="";
 	private static final String FTP_IMAGEPATH="/htdocs/Book/img/";
 	public void delete(String filename) throws Exception{
 		 FTPClient ftp = new FTPClient();

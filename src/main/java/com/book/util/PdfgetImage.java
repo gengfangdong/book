@@ -1,4 +1,4 @@
-package com.book.util;
+﻿package com.book.util;
 
 
 import java.awt.image.BufferedImage;
@@ -19,10 +19,10 @@ import org.apache.pdfbox.rendering.PDFRenderer;
 import org.springframework.stereotype.Component;
 @Component
 public class PdfgetImage {
-	private static final String FTP_ADDRESS="bxu2442160753.my3w.com";
+	private static final String FTP_ADDRESS="";
 	private static final int FTP_PORT=21;
-	private static final String FTP_USERNAME="bxu2442160753";
-	private static final String FTP_PASSWORD="gfdx11660";
+	private static final String FTP_USERNAME="";
+	private static final String FTP_PASSWORD="";
 	private static final String FTP_FILEPATH="/htdocs/Book/img/";
 	/** 
     * 生成一本书的缩略图
