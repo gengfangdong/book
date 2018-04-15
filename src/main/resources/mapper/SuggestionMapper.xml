@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.book.dao.SuggestionDao">
+	<resultMap id="SuggestionMap" type="com.book.entity.Suggestion">
+	    <id column="Suggestion_id" property="Suggestion_id" jdbcType="INTEGER" />
+	    <result column="Suggestion_desc" property="Suggestion_desc" jdbcType="VARCHAR" />
+	    <result column="Suggestion_qq" property="Suggestion_qq" jdbcType="INTEGER"/>
+	    <result column="Suggestion_flag" property="Suggestion_flag" jdbcType="INTEGER"/>
+	  </resultMap>
+</mapper>

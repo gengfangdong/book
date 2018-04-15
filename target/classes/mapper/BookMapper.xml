@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.book.dao.BookDao">
+	<resultMap id="BookMap" type="com.book.entity.Book">
+	    <id column="Book_id" property="Book_id" jdbcType="INTEGER" />
+	    <result column="Book_name" property="Book_name" jdbcType="VARCHAR" />
+	    <result column="Book_desc" property="Book_desc" jdbcType="VARCHAR" />
+	    <result column="Book_user" property="Book_user" jdbcType="VARCHAR"/>
+	    <result column="Book_data" property="Book_data" javaType="java.sql.Timestamp"/>
+	    <result column="Book_file" property="Book_file" jdbcType="VARCHAR"/>
+	    <result column="column_id" property="column_id" jdbcType="INTEGER"/>
+	    <result column="Cate_id" property="Cate_id" jdbcType="INTEGER"/>
+	  </resultMap>
+</mapper>
